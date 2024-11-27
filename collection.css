@@ -1,0 +1,251 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+#scroll{
+    background-color:rgb(255, 255, 255) ;
+    width: 100%;
+    border-bottom: solid 1px rgb(185, 184, 184);
+    padding: 0px 345px; 
+}
+#up{
+    font-size: 17px;
+    display: flex;
+    gap: 15px;
+    
+    a:link{
+        text-decoration: none;
+        
+    } 
+    a:visited{
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+    }
+    a:hover{
+        color: #ff3b60;
+        transition: 0.3s;
+    }  
+}
+#CU{ 
+    background-color: #ff6b81;
+    padding: 0 10px;
+}
+body {
+  background-color: #333333;
+  color: #000000;  
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+}
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px; 
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding: 2px;
+}
+nav ul li a:hover {
+  background-color: #ff6b81;
+}
+.searchbar{
+  margin: 20px 0px 20px 0px;
+}
+.searchbar input{
+  background-color: #d3d1d1;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+.searchbar button{
+  padding: 10px;
+  background: #ff6b81;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+  #meaning{
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 200px
+  }
+  
+/* FICTION Books Section */
+  .featured-books1 {
+    background-color: #F0A8D0;
+    cursor: pointer;
+    padding: 60px 300px;
+    text-align: center;
+  }
+  
+  .featured-books1 h2 {
+    font-size: 2.5rem;
+    background-color: #f184c0;
+    border-radius: 30px;
+    margin: 5px 480px;
+  }
+  
+  /* HISTORY Books Section */
+  .featured-books2 {
+    background-color: #F7B5CA;
+    cursor: pointer;
+    padding: 60px 300px;
+    text-align: center;
+  }
+  
+  .featured-books2 h2 {
+    font-size: 2.5rem;
+    background-color: #f397b4;
+    border-radius: 30px;
+    margin: 5px 480px;
+  }
+/* SCIENCE Books Section */
+  .featured-books3 {
+    background-color: #FFC6C6;
+    cursor: pointer;
+    padding: 60px 300px;
+    text-align: center;
+  }
+  
+  .featured-books3 h2 {
+    font-size: 2.5rem;
+    background-color: #f5a8a8;
+    border-radius: 30px;
+    margin: 5px 480px;
+  }
+/* TECHNOLOGY Books Section */
+  .featured-books4 {
+  background-color: #FFEBD4;
+  cursor: pointer;
+  padding: 60px 300px;
+  text-align: center;
+  }
+
+.featured-books4 h2 {
+  font-size: 2.5rem;
+  background-color: #f1d3b1;
+  border-radius: 30px;
+  margin: 5px 480px;
+  }
+/* REFERENCE Books Section */
+  .featured-books5 {
+  background-color: #fcf5ed;
+  cursor: pointer;
+  padding: 60px 300px;
+  text-align: center;
+  }
+
+  .featured-books5 h2 {
+  font-size: 2.5rem;
+  background-color: #e9ded1;
+  border-radius: 30px;
+  margin: 5px 480px;
+  }
+/* Books Section */
+  .book-grid {  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 60px;
+  }
+  
+  .book {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: px;
+  }
+  
+  .book h3 {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: #333;
+  }
+  
+  .book:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+/* Subscribe Section */
+.subscribe {
+  background-color: #8a8a8a;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+
+.subscribe h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subscribe form input {
+  padding: 9px 20px;
+  margin-top: 15px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.subscribe form button {
+  padding: 12px 20px;
+  background-color: #ff6b81;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe form button:hover {
+  background-color: #ff3b60;
+}
+
+/* Footer Section */
+footer {
+  clear: both;
+  border-top: solid 1px rgb(100, 98, 98);
+  background-color: #202020;
+  color: rgb(255, 255, 255);
+  padding: 2px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 15px;
+}
